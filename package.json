@@ -4,8 +4,8 @@
   "description": "Assignment-for rich media",
   "main": "index.js",
   "scripts": {
-    "start": "node /src/server.js",
-    "pretest": "eslint /src --fix",
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
     "test": "echo \"Tests complete\""
   },
   "author": "Ryan McGlinn",
