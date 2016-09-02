@@ -1,9 +1,9 @@
 const fs = require('fs');
 
-const spongegar = fs.readFileSync(`${__dirname} /../client/spongegar.png`);
+const spongegar = fs.readFileSync(`${__dirname}/../client/spongegar.png`);
 
 // may he rest in heaven...
-const harambe = fs.readFileSync(`${__dirname} /../client/harambe.png`);
+const harambe = fs.readFileSync(`${__dirname}/../client/harambe.png`);
 
 const getDankmemes = (request, response) => {
   response.writeHead(200, { 'Content-Type': 'image/png' });
